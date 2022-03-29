@@ -7,7 +7,7 @@ vector<unsigned char> mkjmp(int CurrentAddress, int DestinationAddress)
     vector<unsigned char> bytes;
 	
 	//Calculate the offset for the JMP instruction
-	//E9 is means it's a JMP instruction
+	//E9 means it's a JMP instruction
     addresstohex << hex << 0xe9 << _byteswap_ulong(DestinationAddress - CurrentAddress - 5); 
 	
 	//Make the stringstream into a string
