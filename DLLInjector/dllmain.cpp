@@ -3,7 +3,7 @@
 
 //By Lannuked
 
-//CurrentAddress = Address of that place inside of the exe in which you want to replace
+//CurrentAddress = Address inside of the exe in which you want to replace
 //DestinationAddress = Address which the JMP will point to
 BOOL patchMemory(int CurrentAddress, int DestinationAddress) {
 	
